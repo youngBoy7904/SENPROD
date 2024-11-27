@@ -1,0 +1,990 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow-x:hidden ;
+	overflow-y: scroll;
+	font-family: "Roboto", sans-serif;
+  	font-weight: 300;
+  	font-style: normal;
+    background-color: #dfdfdf;
+}
+
+
+
+/****************************************************************************/
+/*******************************************************************************/
+/******************************************************/
+
+
+.img-head{
+	height: 8vw;
+	width: 8vw;
+	top: -1vw;
+    left: 3vw;
+	position: absolute;
+	z-index: 100;
+}
+
+/*******************************************************************************/
+/******************************************************/
+
+.div-menu .ul-menu {
+	list-style: none;
+	display: flex;
+	position: absolute;
+	top: 0.7vw;
+	left: 17vw;
+}
+
+/****************************************************************************/
+/*******************************************************************************/
+
+.div-list{
+        width: 17vw;
+        margin-left: 0.5vw;
+        margin-top: 3vw;
+}
+
+
+        .div-list ul{
+            position: relative;
+           list-style: none;
+           margin-left: -2.5vw;
+          
+        
+
+        }
+
+        .div-list ul li{
+
+            line-height: 4vw;
+            font-size: 1vw;
+            text-align:center;
+            font-weight: 100;
+            margin-bottom: 0.1vw;
+            border: 2px solid black;
+            
+           
+        }
+
+
+
+
+/************************************************************************************/
+/************************************************************************************/
+/************************************************************************************/
+/************************************************************************************/
+
+.div-map{
+    display:;
+    position: absolute;
+    background-color: white;
+    left: 19vw;
+    top: -4vw;
+    width: 78vw;
+    height: 100vw;
+    border-radius: 10px;
+
+}
+
+
+
+
+                                                            /************************************************************************************/
+                                                            /************************************************************************************/
+                                                                                    .slide-menu{
+                                                                                        height: 600px;
+                                                                                        display: none;
+                                                                                        position: absolute;
+                                                                                        z-index: 200;
+                                                                                        transition:  all 0.3s ease;
+                                                                                        
+                                                                                        
+                                                                                        
+                                                                                    
+                                                                                        
+                                                                                }
+
+
+
+
+                                                                                .a-map-open{
+                                                                                        height: 40vw;
+                                                                                        width: 40vw;
+                                                                                        position: relative;
+                                                                                        text-align: center;
+                                                                                        border: 1px solid black;
+                                                                                        cursor: pointer;
+                                                                                        transition:  0.3s ease;
+                                                                                        
+                                                                                        
+                                                                                }
+                                                                                
+                                                                                
+                                                                                label {
+                                                                                        cursor: pointer;
+                                                                                        transition:  0.3s ease;
+                                                                                        
+                                                                                        
+                                                                                }
+                                                                                label:hover a{
+                                                                                        scale: 1.2;
+                                                                                }
+                                                                                
+                                                                                #check{
+                                                                                        display: ;
+                                                                                        position: absolute;
+                                                                                        left: 5vw;
+                                                                                        top: 0.5vw;
+                                                                                        height: 3vw;
+                                                                                }
+                                                                                #check:checked ~ .slide-menu {
+                                                                                        display: block;
+                                                                                        .div-topo{}
+                                                                                
+                                                                                        
+                                                                                }
+
+
+                                                            /************************************************************************************/
+                                                            /************************************************************************************/
+
+
+            .div-h-1{
+                font-weight: 300;
+                color: rgb(0, 0, 0);
+                z-index:100;
+                border-radius: 10px;
+                
+                
+            }
+
+
+            .h-1{
+                position: relative;
+                font-family: "Poppins", sans-serif;
+                font-size: 1.4vw;
+                left: 0vw;
+                top:-0.9vw;
+                width: 65vw;
+                line-height: 2.5vw;
+                font-weight: 500;
+                word-spacing: 0.7vw;
+                border-radius: 10px;
+                background: -moz-linear-gradient(90deg, RGBa(300, 300, 300, 7), RGBa(250, 250, 250, 3), RGBa(250, 250, 250, 0.2));
+                background: -webkit-linear-gradient(90deg, RGBa(300, 300, 250, 7), RGBa(250, 250, 250, 3), RGBa(250, 250, 250, 0.2));
+                background: -o-linear-gradient(90deg, RGBa(300, 300, 300, 7), RGBa(250, 250, 250, 3), RGBa(250, 250, 250, 0.2));
+                background: linear-gradient(90deg, RGBa(300, 300, 300, 7), RGBa(250, 250, 250, 3), RGBa(250, 250, 250, 0.2));
+            }
+
+
+            .img-1{
+                position: absolute;
+                height: 35vw;
+                width: 45%;
+                right: 3vw;
+                
+            }
+
+            .img-map{
+                position: absolute;
+                top:35vw ;
+                left: 18vw;
+                height: 50vw;
+                width: 40vw;
+                z-index: 500;
+            }
+
+
+/************************************************************************************/
+/************************************************************************************/
+/************************************************************************************/
+/************************************************************************************/
+
+.div-topo{
+    display:;
+    position: absolute;
+    background-color: white;
+    left: 19.5vw;
+    top: -9.4vw;
+    width: 77vw;
+    height: 100vw;
+    border-radius: 10px;
+
+}
+
+
+
+                                    /************************************************************************************/
+                                    /************************************************************************************/
+                                                            .slide-menu-topo{
+                                                                display:none;
+                                                                position: absolute;
+                                                                z-index: 200;
+                                                                transition:  all 0.3s ease;
+                                                                
+                                                                
+                                                                
+                                                            
+                                                                
+                                                        }
+
+
+
+
+                                                        .a-topo-open{
+                                                                height: 40vw;
+                                                                width: 40vw;
+                                                                position: relative;
+                                                               text-align: center;
+                                                                border: 1px solid black;
+                                                                cursor: pointer;
+                                                                transition:  0.3s ease;
+                                                                
+                                                                
+                                                        }
+                                                        
+                                                        
+                                                        .btn-02 {
+                                                                cursor: pointer;
+                                                                transition:  0.3s ease;
+                                                                
+                                                                
+                                                        }
+                                                        .btn-02:hover a{
+                                                                scale: 1.2;
+                                                        }
+                                                        
+                                                        #check-topo{
+                                                                display: ;
+                                                                position: relative;
+                                                                left: -2.3vw;
+                                                                top: 0.9vw;
+                                                                height: 3vw;
+                                                        }
+                                                        #check-topo:checked ~ .slide-menu-topo {
+                                                                display: block;
+                                                        
+                                                                
+                                                        }
+
+
+                                    /************************************************************************************/
+                                    /************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+                .h-2{
+                    font-family: "Poppins", sans-serif;
+                    position:  absolute;
+                    font-size: 1.4vw;
+                    margin:0vw;
+                    padding: 6vw 15vw 6vw 3vw;
+                    line-height: 2.5vw;
+                    font-weight: 500;
+                    word-spacing: 0.7vw;
+                    border-radius: 10px;
+                    z-index: 200;
+                    background: -moz-linear-gradient(90deg, RGBa(300, 300, 300, 7), RGBa(250, 250, 250, 3), RGBa(250, 250, 250, 0.2));
+                    background: -webkit-linear-gradient(90deg, RGBa(300, 300, 250, 7), RGBa(250, 250, 250, 3), RGBa(250, 250, 250, 0.2));
+                    background: -o-linear-gradient(90deg, RGBa(300, 300, 300, 7), RGBa(250, 250, 250, 3), RGBa(250, 250, 250, 0.2));
+                    background: linear-gradient(90deg, RGBa(300, 300, 300, 7), RGBa(250, 250, 250, 3), RGBa(250, 250, 250, 0.2));
+                }
+
+
+                .div-h-2{
+                    font-weight: 300;
+                    color: rgb(0, 0, 0);
+                    border-radius: 10px;
+
+                    
+                    
+                }
+
+
+
+                .img-2{
+                    position: absolute;
+                    height: 35vw;
+                    width: 45%;
+                    right: 3vw;
+                    top: 3vw;
+                    z-index: 100;
+                    
+                }
+
+                .div-pic-left{
+                    height: 40vw;
+                    width: 47%;
+                    margin-top: 40vw;
+                    margin-left:2.5vw;
+ 
+                    position: absolute;
+                    overflow: hidden;
+                }
+
+                .left-pic{
+                    height: ;
+                    width:100% ;
+
+                }
+/***********************************************/
+/************************************/
+                .div-pic-right{
+                    position: absolute;
+                    height: 40vw;
+                    width: 45%;
+                    margin-top: 40vw;
+                    margin-left: 40vw;
+                   
+                    overflow: hidden;                }
+
+                .right-pic{
+                    width:100% ;
+                    height: ;
+                }
+
+/********************************************/
+/****************************/
+               /* .div-topo-green{
+                    width: 100%;
+                    height: 50vw;
+                    background-color: aqua;
+                } */
+
+
+/************************************************************************************/
+/************************************************************************************/
+/************************************************************************************/
+/************************************************************************************/
+
+.div-ana{
+    display:none;
+    position: absolute;
+    background-color: white;
+    left: 21vw;
+    top: -3vw;
+    width: 77vw;
+    height: 150vw;
+   
+    border-radius: 10px;
+
+}
+
+
+                .h-ana{
+                    font-family: "Poppins", sans-serif;
+                    position:  absolute;
+                    font-size: 1.3vw;
+                    top: 25vw;
+                    left: 9vw;
+                    padding-right: 11vw;
+                    line-height: 2.5vw;
+                    font-weight: 500;
+                    word-spacing: 0.7vw;
+                    border-radius: 10px;
+                    z-index: 400;
+                    color: rgb(0, 0, 0);
+                    
+                }
+
+
+                .div-h-ana{
+                    font-weight: 300;
+                    color: rgb(0, 0, 0);
+                    border-radius: 10px;
+
+                    
+                    
+                }
+
+                .h3-ana{
+                    position: absolute;
+                    z-index: 300;
+                    left: 9vw;
+                    top: 53vw;
+                    font-size: 1.4vw;
+                    color: green;
+                }
+
+
+
+                .img-ana{
+                    position: absolute;
+                    height: 39vw;
+                    width:100%;
+                    z-index: 100;
+                    border-radius: 10px;
+                    
+                }
+
+
+                .blur-ana{
+	 
+                    position: absolute;
+                    height: 27vw;
+                    width:100%;
+                    top: 20vw;
+                    z-index: 300;
+                
+                             background: -moz-linear-gradient(180deg, RGBa(300, 300, 300, -1), RGBa(400, 400, 400, 1), RGBa(250, 250, 250, 1));
+							background: -webkit-linear-gradient(180deg, RGBa(300, 300, 300, -1), RGBa(400, 400, 400, 1), RGBa(250, 250, 250, 1));
+							background: -o-linear-gradient(180deg, RGBa(300, 300, 300, -1), RGBa(400, 400, 400, 1), RGBa(250, 250, 250, 1));
+							background: linear-gradient(180deg, RGBa(300, 300, 300, -1), RGBa(400, 400, 400, 1), RGBa(250, 250, 250, 1));
+                }
+
+
+
+                .div-bull-ana{
+                    position: absolute;
+                    top: 53vw;
+                }
+
+                        .pic-ana-1{
+                            height: 15vw;
+                            width: 15vw;
+                            position: relative;
+                            left: 6vw;
+                        }
+
+
+                        .pic-ana-2{
+                            height: 15vw;
+                            width: 15vw;
+                            position: relative;
+                            left: 55vw;
+                        }
+
+                        .p-ana{
+                            position: relative;
+                            width: 30vw;
+                            top: 10vw;
+                            left: 22vw;
+                            font-weight: 700;
+                        }
+/************************************************************************************/
+/************************************************************************************/
+
+.div-sig{
+    display:none;
+    position: absolute;
+    background-color: white;
+    left: 21vw;
+    top: -3vw;
+    width: 77vw;
+    height: 150vw;
+   
+    border-radius: 10px;
+
+}
+
+
+
+                .h-sig{
+                    font-family: "Poppins", sans-serif;
+                    position:  absolute;
+                    font-size: 1.7vw;
+                    top: 8vw;
+                    left: 8vw;
+                    padding-right: 11vw;
+                    line-height: 2.5vw;
+                    font-weight: 500;
+                    word-spacing: 0.5vw;
+                    border-radius: 10px;
+                    z-index: 400;
+                    color: rgb(235, 235, 235);
+                    
+                }
+
+
+                .div-h-sig{
+                    font-weight: 300;
+                    color: rgb(0, 0, 0);
+                    border-radius: 10px;
+
+                    
+                    
+                }
+
+
+
+
+                .img-sig{
+                    position: absolute;
+                    height: 45vw;
+                    width:100%;
+                    z-index: 100;
+                    border-radius: 10px;
+                    background-color: rgb(58, 58, 58);
+                    
+                }
+
+
+
+                .p-sig{
+                    position:absolute;
+                    top: 20vw;
+                    color: #dfdfdf;
+                    left: 10vw;
+                    z-index: 400;
+                    right: 30vw;
+                }
+
+
+                .blur-sig{
+
+                    position: absolute;
+                    height: 45vw;
+                    width:100%;
+                    top: 0vw;
+                    z-index: 300;
+                    border-radius: 10px;
+
+                            background: -moz-linear-gradient(180deg, RGBa(0, 0, 0, 0.6), RGBa(0, 0, 0, 1));
+                            background: -webkit-linear-gradient(180deg, RGBa(0, 0, 0, 0.6), RGBa(0, 0, 0, 1));
+                            background: -o-linear-gradient(180deg, RGBa(0, 0, 0, 0.6), RGBa(0, 0, 0, 1));
+                            background: linear-gradient(180deg, RGBa(0, 0, 0, 0.6), RGBa(0, 0, 0, 1));
+                }
+
+                        .p-ul-sig{
+                            z-index:400 ;
+                            position: absolute;
+                            top: 50vw;
+                            font-weight: 700;
+                            color: green;
+                            font-size: 1.vw;
+                            left: 7vw;
+                        }
+
+
+                        .ul-sig{
+                            position:relative;
+                            top: 55vw;
+                            left: -15vw;
+                            z-index: 400;
+                        }
+
+               
+
+
+/************************************************************************************/
+/************************************************************************************/
+
+.div-tele{
+    display:none;
+    position: absolute;
+    background-color: white;
+    left: 21vw;
+    top: -3vw;
+    width: 77vw;
+    height: 150vw;
+   
+    border-radius: 10px;
+
+}
+
+            .h-tele{
+                font-family: "Poppins", sans-serif;
+                position:  absolute;
+                font-size: 1.7vw;
+                top: 8vw;
+                left: 8vw;
+                padding-right: 11vw;
+                line-height: 2.5vw;
+                font-weight: 500;
+                word-spacing: 0.5vw;
+                border-radius: 10px;
+                z-index: 400;
+                color: rgb(235, 235, 235);
+                
+            }
+
+
+            .div-h-tele{
+                font-weight: 300;
+                color: rgb(0, 0, 0);
+                border-radius: 10px;
+
+                
+                
+            }
+
+
+
+
+            .img-tele{
+                position: absolute;
+                height: 45vw;
+                width:100%;
+                z-index: 100;
+                border-radius: 10px;
+                background-color: #2e2e2e;
+                
+            }
+
+
+
+            .p-tele{
+                position:absolute;
+                top: 20vw;
+                color: #dfdfdf;
+                left: 10vw;
+                z-index: 400;
+                right: 30vw;
+            }
+
+
+            .blur-tele{
+
+                position: absolute;
+                height: 3vw;
+                width:100%;
+                top: 42vw;
+                z-index: 300;
+
+/*
+                        background: -moz-linear-gradient(180deg, RGBa(300, 300, 300, -2), RGBa(500, 500, 500, 3));
+                        background: -webkit-linear-gradient(180deg, RGBa(300, 300, 300, -2), RGBa(500, 500, 500, 3));
+                        background: -o-linear-gradient(180deg, RGBa(300, 300, 300, -2), RGBa(500, 500, 500, 3));
+                        background: linear-gradient(180deg, RGBa(300, 300, 300, -2), RGBa(500, 500, 500, 3));
+                        */
+            }     
+
+                    .p-ul-tele{
+                        z-index:400 ;
+                        position: absolute;
+                        top: 50vw;
+                        font-weight: 700;
+                        color: green;
+                        font-size: 1.vw;
+                        left: 7vw;
+                    }
+
+
+                    .ul-tele{
+                        position:relative;
+                        top: 55vw;
+                        left: -15vw;
+                        z-index: 400;
+                    }
+
+/************************************************************************************/
+/************************************************************************************/
+
+.div-thema{
+    display:none;
+    position: absolute;
+    background-color: white;
+    left: 21vw;
+    top: -3vw;
+    width: 77vw;
+    height: 150vw;
+   
+    border-radius: 10px;
+
+} 
+
+
+
+                    .h-thema{
+                        font-family: "Poppins", sans-serif;
+                        position:  absolute;
+                        font-size: 1.7vw;
+                        top: 5vw;
+                        left: 8vw;
+                        padding-right: 11vw;
+                        line-height: 2.5vw;
+                        font-weight: 500;
+                        word-spacing: 0.5vw;
+                        border-radius: 10px;
+                        z-index: 400;
+                        color: rgb(235, 235, 235);
+                        
+                    }
+
+
+                    .div-h-thema{
+                        font-weight: 300;
+                        color: rgb(0, 0, 0);
+                        border-radius: 10px;
+
+                        
+                        
+                    }
+
+
+
+
+                    .img-thema{
+                        position: absolute;
+                        height: 45vw;
+                        width:100%;
+                        z-index: 100;
+                        border-radius: 10px;
+                        
+                    }
+
+
+                    .blur-thema{
+
+                        position: absolute;
+                        height: 70vw;
+                        width:100%;
+                        top: 0vw;
+                        z-index: 300;
+                        border-radius: 10px;
+
+                                background: -moz-linear-gradient(180deg, RGBa(0, 0, 0, 0.6), RGBa(400, 400, 400, 1), RGBa(250, 250, 250, 1));
+                                background: -webkit-linear-gradient(180deg, RGBa(0, 0, 0, 0.6), RGBa(400, 400, 400, 1), RGBa(250, 250, 250, 1));
+                                background: -o-linear-gradient(180deg, RGBa(0, 0, 0, 0.6), RGBa(400, 400, 400, 1), RGBa(250, 250, 250, 1));
+                                background: linear-gradient(180deg, RGBa(0, 0, 0, 0.6), RGBa(400, 400, 400, 1), RGBa(250, 250, 250, 1));
+                    }
+
+
+                    .ul-thema{
+                        position: absolute;
+                        width: 96.3%;
+                        top: 23vw;
+                        left: 2.5vw;
+                        z-index: 400;
+                        display: flex;
+                    }
+
+                    .li-1{
+                       margin-right: 4vw;
+
+                    }
+
+                        .pic-1{
+                            height: 15vw;
+                            width: 21vw;
+                            border-radius: 20px;
+                        }
+
+                            .p-pic-1{
+                                position: relative;
+                                top: -2vw;
+                            }
+
+
+
+                    .p-thema{
+                        position: absolute;
+                        top: 51vw;
+                        margin-left: 8vw;
+                        font-size: 1.5vw;
+                        word-spacing: 0.7vw;
+                        letter-spacing: 0.07vw;
+                        line-height: 2.5vw;
+                        right:10vw;
+                        z-index: 400;
+                    }
+
+
+                    .h2-thema{
+                        position: absolute;
+                        top: 65vw;
+                        left: 8vw;
+                        z-index: 400;
+                        color: green;
+                        font-size: 1.8vw;
+                    }
+
+
+                    
+                            .ul-thema-2{
+                                position: absolute;
+                                width: 96.3%;
+                                top: 52vw;
+                                left: 9vw;
+                                z-index: 400;
+                                display: flex;
+                            }
+        
+                            .li-2{
+                               margin-right: 10vw;
+                               border: 1px solid rgb(124, 124, 124) ;
+                               border-radius: 20px;
+        
+                            }
+        
+                                .pic-2{
+                                    height: 10vw;
+                                    width: 13vw;
+                                    border-radius: 20px;
+                                }
+        
+                                    .p-pic-2{
+                                        position: relative;
+                                        top: -2vw;
+                                        font-size: 0.8vw;
+                                        font-weight: 900;
+                                    }
+
+
+                            .ul-thema-3{
+                                position: absolute;
+                                width: 50%;
+                                top: 55vw;
+                                left: 20.5vw;
+                                z-index: 400;
+                                display: flex;
+                            }
+        
+                            .li-3{
+                                margin-right: 10vw;
+                                border: 1px solid  rgb(112, 112, 112);
+                                border-radius: 20px;
+        
+                            }
+        
+                                .pic-3{
+                                    height: 10vw;
+                                    width: 13vw;
+                                    border-radius: 20px;
+                                }
+        
+                                    .p-pic-3{
+                                        position: relative;
+                                        top: -1vw;
+                                        font-size: 0.8vw;
+                                        line-height: 1vw;
+                                        font-weight: 900;
+                                    }
+        
+
+
+                       
+/************************************************************************************/
+/************************************************************************************/
+
+.div-photo{
+    display:none;
+    position: absolute;
+    background-color: white;
+    left: 21vw;
+    top: -3vw;
+    width: 77vw;
+    height: 150vw;
+   
+    border-radius: 10px;
+
+}
+
+
+                .h-photo{
+                    font-family: "Poppins", sans-serif;
+                    position:  absolute;
+                    font-size: 1.7vw;
+                    top: 8vw;
+                    left: 8vw;
+                    padding-right: 11vw;
+                    line-height: 2.5vw;
+                    font-weight: 500;
+                    word-spacing: 0.5vw;
+                    border-radius: 10px;
+                    z-index: 400;
+                    color: rgb(235, 235, 235);
+                    
+                }
+
+
+                .div-h-photo{
+                    font-weight: 300;
+                    color: rgb(0, 0, 0);
+                    border-radius: 10px;
+
+                
+                }
+
+
+                .img-photo{
+                    position: absolute;
+                    height: 45vw;
+                    width:100%;
+                    z-index: 100;
+                    border-radius: 10px;
+                    background-color: #2e2e2e;
+                    
+                }
+
+
+
+                .p-photo{
+                    position:absolute;
+                    top: 20vw;
+                    color: #dfdfdf;
+                    left: 10vw;
+                    z-index: 400;
+                    right: 30vw;
+                }
+
+
+                .blur-photo{
+
+                    position: absolute;
+                    height: 3vw;
+                    width:100%;
+                    top: 42vw;
+                    z-index: 300;
+
+                /*
+                            background: -moz-linear-gradient(180deg, RGBa(300, 300, 300, -2), RGBa(500, 500, 500, 3));
+                            background: -webkit-linear-gradient(180deg, RGBa(300, 300, 300, -2), RGBa(500, 500, 500, 3));
+                            background: -o-linear-gradient(180deg, RGBa(300, 300, 300, -2), RGBa(500, 500, 500, 3));
+                            background: linear-gradient(180deg, RGBa(300, 300, 300, -2), RGBa(500, 500, 500, 3));
+                            */
+                }     
+
+                        .p-ul-photo{
+                            z-index:400 ;
+                            position: absolute;
+                            top: 50vw;
+                            font-weight: 700;
+                            color: green;
+                            font-size: 1.vw;
+                            left: 7vw;
+                        }
+
+
+                        .ul-photo{
+                            position:relative;
+                            top: 55vw;
+                            left: -15vw;
+                            z-index: 400;
+                        }
+
+/************************************************************************************/
+/************************************************************************************/
+
+.div-vec{
+    display:none;
+    position: absolute;
+    background-color: white;
+    left: 21vw;
+    top: -3vw;
+    width: 77vw;
+    height: 100vw;
+   
+    border-radius: 10px;
+
+}
+
+/************************************************************************************/
+/************************************************************************************/
+/************************************************************************************/
+/************************************************************************************/
+.total-foot{
+    margin-top: 95vw;
+}
+
+
+

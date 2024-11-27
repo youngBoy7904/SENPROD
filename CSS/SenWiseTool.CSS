@@ -1,0 +1,1934 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow-x:hidden ;
+	overflow-y: scroll;
+	font-family: "Roboto", sans-serif;
+  	font-weight: 300;
+  	font-style: normal;
+    background-color: rgb(300, 300, 300);
+}
+
+
+
+/****************************************************************************/
+/*******************************************************************************/
+/******************************************************/
+
+
+.img-head{
+	height: 8vw;
+	width: 8vw;
+	top: -1vw;
+    left: 3vw;
+	position: absolute;
+	z-index: 100;
+}
+
+/*******************************************************************************/
+/******************************************************/
+
+.img-head-2{
+	height: 20vw;
+	width: 20vw;
+	top: 8vw;
+    left: 66vw;
+	position: absolute;
+	z-index: 100;
+}
+
+/*******************************************************************************************************/
+/******************************************************************************************************/
+
+.div-menu2 .ul-menu2 {
+	list-style: none;
+	display: flex;
+	position: absolute;
+	top: 0.7vw;
+	left: 13vw;
+}
+
+
+
+.div-menu2 .ul-menu2 li{
+	position:relative;
+	display: flex;
+	padding-right: 3vw;
+	font-size: 0.9vw;
+	font-weight: 600;
+	color: black;
+	
+}
+
+
+				.div-menu2 .ul-menu2 li a{
+					color: black;
+					
+				}
+
+
+
+
+
+											.div-menu2 ul li:hover a {
+												border-bottom: 7px solid rgb(35, 255, 35);
+												padding-bottom: 0.6vw;
+											}
+
+
+
+
+.day{
+	display: none;
+}
+
+.day2{
+	display: none;
+}
+
+#check3{
+	display:none ;
+	position: absolute;
+	left: 90vw;
+	
+	
+}
+
+/*******************************************************************************/
+/******************************************************/
+/*******************************************************************************/
+/******************************************************/
+
+.div-img-Sen{
+	margin-top: 2vw;
+	height: 30vw;
+	overflow: hidden;
+	z-index: 30;
+
+}
+
+			.img-Sen{
+				position: relative;
+				top: -10vw;
+				height: 60vw;
+				width: 100%;
+				z-index: 50;
+			}
+
+	
+			.blur-Sen{
+				
+				position: absolute;
+				height: 30vw;
+				width:100%;
+				top: 6vw;
+				z-index: 100;
+				backdrop-filter: blur(4px);
+
+										background: -moz-linear-gradient(180deg, RGBa(0, 0, 0, 0.9),  RGBa(0, 0, 0, 0.6));
+										background: -webkit-linear-gradient(180deg, RGBa(0, 0, 0, 0.9), RGBa(0, 0, 0, 0.6));
+										background: -o-linear-gradient(180deg, RGBa(0, 0, 250, 0.9), RGBa(0, 0, 0, 0.6));
+										background: linear-gradient(180deg, RGBa(0, 0, 0, 0.9),  RGBa(0, 0, 0, 0.6));
+										
+			}
+
+
+			.h1-Sen{
+				position: absolute;
+				z-index: 130;
+				color: white;
+				top: 6vw;
+				font-size: 4vw;
+				left: 7vw;
+				width: 55%;
+			}
+
+			.sp-sen{
+				color: rgb(246, 119, 8);
+			}
+
+			.p-sen{
+				position: absolute;
+				z-index: 130;
+				color: white;
+				top: 20vw;
+				font-size: 1.4vw;
+				line-height: 1.5vw;
+				word-spacing: 0.3vw;
+				letter-spacing: 0.1vw;
+				left: 9vw;
+				width: 25%;
+			}
+
+
+
+/*******************************************************************************/
+/******************************************************/
+/*******************************************************************************/
+/******************************************************/
+
+.div-options{
+	position: relative;
+	top: -9vw;
+	width: 65%;
+	left: 18vw;
+	z-index: 160;
+
+}
+
+		.ul-options{
+			list-style: none;
+			display: flex;
+			text-decoration: none;
+			margin-top: 2vw;
+			margin-bottom: 2vw;
+
+		}
+
+				.ul-options li{
+					border: 1px solid rgb(88, 87, 87);
+					margin-left: 1.2vw;
+					background-color: white;
+					border-radius: 10px;
+					height: 23vw;
+					
+				}
+
+				.img-in{
+					height: 15vw;
+					width: 18vw;
+					border-radius: 10px;
+				}
+
+				.img-tra{
+					margin-top: 1.5vw;
+					height: 13vw;
+					width: 18vw;
+					border-radius: 10px;
+				}
+
+						.ul-options li p{
+							margin-top: -1vw;
+							text-align: center;
+							font-weight: 800;
+							font-size: 1.5vw;
+						}
+
+								.p-tra{
+									padding-top: 0.8vw;
+									text-align: center;
+									font-weight: 800;
+									font-size: 1.5vw;
+								}
+
+						.ul-options li a{
+							text-decoration: none;
+							margin-left: 8vw;
+							font-weight: 600;
+							color: orange;
+						}
+
+									.a-tra{
+										text-decoration: none;
+										margin-left: 8vw;
+										position: relative;
+										top: 1.7vw;										
+										font-weight: 600;
+										color: orange;
+									}
+
+
+/*******************************************************************************/
+/******************************************************/
+/*******************************************************************************/
+/******************************************************/
+
+.div-def{
+	position: relative;
+	top: -5vw;
+}
+
+
+			.h2-sen{
+				position: absolute;
+				top: 2vw;
+				left: 8vw;
+				font-size: 3vw;
+				width: 20vw;
+			}
+
+				.p-sen2{
+					border-left: 9px solid orange	;
+					margin-left:35vw ;
+					width: 50vw;
+					font-size: 1.8vw;
+					line-height: 2.5vw;
+					padding-left: 2vw;
+			
+
+				}
+
+
+.div-body{
+	position: relative;
+}
+
+
+		.div-body-1{
+			display: ;
+			position:absolute;
+			top: 8vw;
+			left: -4vw;
+			height: 36vw;
+			width:;
+			border-left:28vw solid rgb(248, 193, 90) ;
+			border-top: 20px solid transparent;
+			border-bottom: 20px solid transparent;
+			margin-bottom: 10vw;
+			margin-left: 10vw;
+			
+		}
+					.h2-forme{
+						position: absolute;
+						font-size: 1.4vw;
+						font-weight: 600;
+						left: 9vw;
+						top: 1vw;
+						width: 20vw;
+						color: rgb(95, 93, 93);
+					}
+
+							.ul-forme{
+								position: absolute;
+								top: 12vw;
+								left: 7vw;
+								font-size: 1.2vw;
+								line-height: 1.9vw;
+								color: rgb(0, 0, 0);
+								width: 22vw;
+
+							}
+
+
+							.ul-forme li{
+								list-style: url(../PIC/arrow-4.png);
+							}
+
+
+			.div-body-2{
+				display: ;
+				position:absolute;
+				top: 8vw;
+				left: 35vw;
+				height: 36vw;
+				width:;
+				border-left:28vw solid rgb(248, 193, 90) ;
+				border-top: 20px solid transparent;
+				border-bottom: 20px solid transparent;
+				margin-bottom: 10vw;
+
+				
+			}
+
+
+						.h2-forme2{
+							position: absolute;
+							font-size: 1.4vw;
+							font-weight: 600;
+							left: 39vw;
+							top: 1vw;
+							width: 20vw;
+							color: rgb(95, 93, 93);
+						}
+
+								.ul-forme2{
+									position: absolute;
+									top: 12vw;
+									left: 36vw;
+									font-size: 1.2vw;
+									line-height: 1.9vw;
+									color: rgb(0, 0, 0);
+									width: 22vw;
+								}
+
+
+								.ul-forme2 li{
+									list-style: url(../PIC/arrow-4.png);
+								}
+
+
+
+
+			.div-body-3{
+				display: ;
+				position:absolute;
+				top: 8vw;
+				left: 64vw;
+				height: 36vw;
+				width:;
+				border-left:28vw solid rgb(248, 193, 90) ;
+				border-top: 20px solid transparent;
+				border-bottom: 20px solid transparent;
+				margin-bottom: 10vw;
+
+				
+			}
+
+						.h2-forme3{
+							position: absolute;
+							font-size: 1.4vw;
+							font-weight: 600;
+							left: 68vw;
+							top: 1vw;
+							width: 20vw;
+							color: rgb(95, 93, 93);
+						}
+
+								.ul-forme3{
+									position: absolute;
+									top: 12vw;
+									left: 68vw;
+									font-size: 1.2vw;
+									line-height: 1.9vw;
+									color: rgb(0, 0, 0);
+								}
+
+								.ul-forme3 li{
+									list-style: url(../PIC/arrow-4.png);
+								}
+
+
+/*******************************************************************************/
+/******************************************************/
+/*******************************************************************************/
+/******************************************************/
+.div-body-4{
+	margin-top: 2vw;
+	position: relative;
+
+}
+
+		.body{
+			position: absolute;
+			border-radius: 10px;
+
+		}
+					.h2-body-4{
+						position: absolute;
+						left: 1vw;
+						top: 67.8vw;
+						font-size: 2.8vw;
+						width: 48.7vw;
+						height: 17.7vw;
+						color: white;
+						font-weight: 800;
+						border: 2px solid black;
+						padding-top: 10vw;
+						padding-bottom: 10vw;
+						padding-left: 1vw;
+						backdrop-filter: blur(7px);
+						z-index: 150;
+
+
+					}
+
+					.p-body-4{
+						position: absolute;
+						top: 90vw;
+						margin-left: 3vw;
+						line-height: 1.6vw;
+						word-spacing: 0.1vw;
+						letter-spacing: 0.1vw;
+						font-size: 1.4vw;
+						width: 40%;
+						color: rgb(255, 255, 255);
+						z-index: 150;
+					}
+
+					.img-body-4{
+						height: 38vw;
+						width: 50vw;
+						padding-left: 1vw;
+						padding-top: 70vw;
+						border-radius: 10px;
+					}
+
+
+					.blur-body-4{
+				
+						position: absolute;
+						height: 36vw;
+						width:50vw;
+						top: 72vw;
+						left: 1vw;
+						z-index: 100;
+						backdrop-filter: blur(4px);
+		
+												background: -moz-linear-gradient(180deg, RGBa(0, 0, 0, 0.6),  RGBa(0, 0, 0, 0.6));
+												background: -webkit-linear-gradient(180deg, RGBa(0, 0, 0, 0.6), RGBa(0, 0, 0, 0.6));
+												background: -o-linear-gradient(180deg, RGBa(0, 0, 250, 0.6), RGBa(0, 0, 0, 0.6));
+												background: linear-gradient(180deg, RGBa(0, 0, 0, 0.6),  RGBa(0, 0, 0, 0.6));
+												
+					}
+
+
+								.ul-1{
+									position: absolute;
+									left: 54vw;
+									top: 70vw;
+									width: 20vw;
+									height: 19vw;
+									border: 1px solid black;
+									font-weight: 700;
+									border-radius: 10px;
+								}
+
+									.ul-1 li{
+										list-style: url(../PIC/right-1.png);
+										font-size: 0.9vw;
+										line-height: 1.3vw;
+									}
+					
+										.p-ul-1{
+											position: relative;
+											top: -5vw;
+											left: 5vw;
+											font-size: 1.4vw;
+											width: 17vw;
+											text-align: center;
+											color: rgb(4, 59, 4);
+										}
+				
+										.img-ul-1{
+											height: 5vw;
+											width: 7vw;
+											position: relative;
+											left: 1vw;
+										}
+
+
+
+										.list-1{
+											font-weight: 100;
+											margin-top: -3vw;
+											margin-right: 1vw;
+										}
+				
+								.ul-2{
+									position: absolute;
+									left: 75vw;
+									top: 70vw;
+									width: 20vw;
+									height: 19vw;
+									font-weight: 700;
+									border: 1px solid black;
+									border-radius: 10px;
+								}	
+								
+								
+														.ul-2 li{
+															list-style: url(../PIC/right-1.png);
+															font-size: 0.9vw;
+															line-height: 1.3vw;
+														}
+										
+														.p-ul-2{
+															
+															position: relative;
+															top: -5vw;
+															left: 8vw;
+															font-size: 1.3vw;
+															width: 10vw;
+															text-align: center;
+															color: rgb(4, 59, 4);
+														}
+								
+														.img-ul-2{
+															height: 5vw;
+															width: 7vw;
+															position: relative;
+															left: 1vw;
+														}
+
+														.list-2{
+															font-weight: 100;
+															margin-top: -4.3vw;
+															margin-right: 1vw;
+														}
+				
+								.ul-3{
+									border: 1px solid black;
+									position: absolute;
+									left: 54vw;
+									width: 20vw;
+									height: 18vw;
+									font-weight: 700;
+									top: 90vw;
+									border-radius: 10px;
+								}
+
+													.ul-3 li{
+														list-style: url(../PIC/right-1.png);
+														font-size: 0.9vw;
+														line-height: 1.3vw;
+													}
+						
+												.p-ul-3{
+													position: relative;
+													top: -5vw;
+													left: 3vw;
+													font-size: 1.4vw;
+													width: 25vw;
+													text-align: center;
+													color: rgb(4, 59, 4);
+													
+												}
+
+												.list-3{
+													font-weight: 100;
+													margin-top: -4vw;
+													margin-right: 1vw;
+												}
+
+
+
+					
+												.img-ul-3{
+													height: 5vw;
+													width: 7vw;
+													position: relative;
+													left: 4vw;
+												}
+
+
+
+								.ul-4{
+									border: 1px solid black;
+									position: absolute;
+									left: 75vw;
+									width: 20vw;
+									height: 18vw;
+									font-weight: 700;
+									top: 90vw;
+									overflow: hidden;
+									border-radius: 10px;
+								}
+
+									.ul-4 li{
+										list-style: url(../PIC/right-1.png);
+										font-size: 0.9vw;
+										line-height: 1.3vw;
+									}
+				
+										.p-ul-4{
+											position: relative;
+											top: -5vw;
+											left: 3vw;
+											font-size: 1.4vw;
+											width: 25vw;
+											text-align: center;
+											color: rgb(4, 59, 4);
+											
+										}
+				
+										.img-ul-4{
+											height: 5vw;
+											width: 7vw;
+											position: relative;
+											left: 4vw;
+										}
+
+
+										.list-4{
+											font-weight: 100;
+											margin-top: -4vw;
+											margin-right: 1vw;
+										}
+
+
+
+
+/********************************************************/
+/*******************************************************/
+
+.div-Q{
+	position: relative;
+	margin-top: 3vw;
+	background-color: rgb(248, 193, 90);	
+	height: 50vw;
+}
+
+
+
+		.slide-2{
+			
+			margin-top: 1.5vw;
+			height: 15vw;
+		}
+
+				.slide-2-img{
+					margin-top: 11vw;
+					height: 30vw;
+					width: 27vw;
+				}
+
+				.slide-2-2-img{
+					position:absolute;
+					margin-top: 15vw;
+					height: 25vw;
+					width: 25vw;
+					right: 5vw;
+					border-radius: 20px;
+				}
+
+				.slide-2-h2{
+				
+					position: absolute;
+					top: 5vw;
+					left: 38vw;
+					width: 35%;
+					font-size: 3vw;
+					word-spacing: ;
+					line-height: 2.2vw;
+					color: green;
+					
+				}
+
+					.sp-Q{
+						color: rgb(77, 172, 3);
+					}
+
+				.p-Q{
+					
+					position: relative;
+					top: -14vw;
+					left: 25vw;
+					width: 35%;
+					font-size: 1.5vw;
+					font-weight: 700 ;
+					color: rgb(77, 172, 3);
+				}
+
+				.ul-Q{
+					margin-top: 1.7vw;
+					position: absolute;
+					left: 32vw;
+					width: 65vw;
+				}
+
+
+						.ul-Q li{
+							line-height: 4vw;
+							font-size: 1.3vw;
+							list-style: url(../PIC/right-1.png);
+							/*list-style:url('../PIC/94555989-bd77-43c9-847e-c2cd4a329b79.png');*/
+						}
+
+				.a-Q{
+					position: relative;
+					bottom:-29vw ;
+					right:-81vw ;
+					font-weight: 700;
+					text-decoration: none;
+					color: rgb(77, 172, 3);
+					font-size: 1.1vw;
+					
+				}
+
+.div-A{
+	margin-top: -3vw;
+	position: relative;
+	height: 50vw;
+	background-color: #ffffff;
+}
+
+
+				.slide-3{
+					
+					margin-top: 1.5vw;
+					height: 15vw;
+				}
+
+						.slide-3-img{
+							position: absolute;
+							height: 17vw;
+							width: 17vw;
+							left:70vw;
+							top: 17vw;
+							z-index: 20;
+						}
+
+							.slide-3-2-img{
+								position:absolute;
+								margin-top: 20vw;
+								height: 20vw;
+								width: 20vw;
+								left: 3vw;
+								border-radius: 20px;
+							}
+
+						.slide-3-h2{
+							position: absolute;
+							top: 5vw;
+							left: 38vw;
+							width: 35%;
+							font-size: 3vw;
+							word-spacing: ;
+							line-height: 2.2vw;
+							color: rgb(248, 193, 90);
+						}
+
+							.sp-A{
+								color: rgb(10, 172, 209);
+							}
+
+						.p-A{
+							
+							position: relative;
+							top: -16vw;
+							left: 22vw;
+							width: 40%;
+							font-size: 1.5vw;
+							font-weight: 700 ;
+							color: rgb(10, 172, 209);
+						}
+
+						.ul-A{
+							margin-top: 2.8vw;
+							position: absolute;
+							left: 5vw;
+						}
+
+
+								.ul-A li{
+									line-height: 4vw;
+									font-size: 1.3vw;
+									list-style: url(../PIC/arrow-4.png);
+								}
+
+						.a-A{
+							position: relative;
+							bottom:-32vw ;
+							right:-81vw ;
+							font-weight: 700;
+							text-decoration: none;
+							color: rgb(248, 193, 90);
+							font-size: 1.1vw;
+							
+						}	
+
+.div-K{
+	margin-top: 3vw;
+	position: relative;
+	height: 50vw;
+	background-color: rgb(248, 193, 90);
+	padding-bottom: 7vw;
+}
+
+
+				.slide-4{
+					
+					margin-top: 1.5vw;
+					height: 15vw;
+				}
+
+						.slide-4-img{
+							position: absolute;
+							height: 17vw;
+							width: 30vw;
+							top:15vw ;
+							left: 4vw;
+							position: relative;
+							
+						}
+
+						
+
+						.slide-4-h2{
+							position: absolute;
+							top: 6vw;
+							left: 38vw;
+							width: 50%;
+							font-size: 3vw;
+							word-spacing: ;
+							line-height: 2.2vw;
+							color: rgb(255, 255, 255);
+						}
+
+							
+
+						.p-K{
+							
+							position: relative;
+							top: -7vw;
+							left: 10vw;
+							width: 40%;
+							font-size: 1.5vw;
+							font-weight: 700 ;
+							color: rgb(44, 131, 253);
+						}
+
+						.ul-K{
+							margin-top: 11vw;
+							position: absolute;
+							left: 35vw;
+							top: 7vw;
+						}
+
+
+								.ul-K li{
+									line-height: 4vw;
+									font-size: 1.3vw;
+									list-style: url(../PIC/arrow-4.png);
+								}
+
+						.a-K{
+							position: relative;
+							bottom:-36vw ;
+							right:-81vw ;
+							font-weight: 700;
+							text-decoration: none;
+							color: rgb(255, 255, 255);
+							z-index: 20;
+							font-size: 1.1vw;
+							
+						}	
+
+
+										
+	
+
+
+
+									.ul-img{
+										position: absolute;
+										top: 35vw;
+										left: 27vw;
+										list-style: none;
+										display: flex;
+									}
+
+
+
+										.ul-img li{
+											margin-left: 2vw;
+										}
+
+												.li-img{
+													height: 10vw;
+													width: 13vw;
+													border-radius: 30px;
+													border: 4px solid white;
+												}
+	
+
+
+
+
+
+/**************************************************************************************************/
+/*******************************************************************************************/
+/***************************************************************************************/
+/*****************************************************************************/
+
+@media screen and (min-width:200px) and (max-width:920px){
+
+
+
+
+
+/*******************************************************************************/
+/******************************************************/
+
+.div-img-Sen{
+	margin-top: 2vw;
+	height: 50vw;
+	overflow: hidden;
+	z-index: 30;
+
+}
+
+			.img-Sen{
+				position: relative;
+				top: 0vw;
+				height: 55vw;
+				width: 100%;
+				z-index: 50;
+			}
+
+	
+			.blur-Sen{
+				
+				position: absolute;
+				height: 50vw;
+				width:100%;
+				top: 6vw;
+				z-index: 100;
+				backdrop-filter: blur(4px);
+
+										background: -moz-linear-gradient(180deg, RGBa(0, 0, 0, 0.9),  RGBa(0, 0, 0, 0.6));
+										background: -webkit-linear-gradient(180deg, RGBa(0, 0, 0, 0.9), RGBa(0, 0, 0, 0.6));
+										background: -o-linear-gradient(180deg, RGBa(0, 0, 250, 0.9), RGBa(0, 0, 0, 0.6));
+										background: linear-gradient(180deg, RGBa(0, 0, 0, 0.9),  RGBa(0, 0, 0, 0.6));
+										
+			}
+
+
+			.h1-Sen{
+				position: absolute;
+				z-index: 130;
+				color: white;
+				top: 6vw;
+				font-size: 6vw;
+				left: 7vw;
+				width: 70%;
+			}
+
+			.sp-sen{
+				color: rgb(246, 119, 8);
+			}
+
+			.p-sen{
+				position: absolute;
+				z-index: 130;
+				color: white;
+				top: 30vw;
+				font-size: 3.1vw;
+				line-height: 4vw;
+				word-spacing: 0.3vw;
+				letter-spacing: 0.1vw;
+				left: 15vw;
+				width: 55%;
+			}
+
+
+
+/*******************************************************************************/
+/******************************************************/
+	
+
+		/*/*//*/**//********/
+
+							/************************************2nd bouton**********************************************************************/
+							.div-menu2{
+								display: ;
+								width: 45vw;
+								position: absolute;
+								top:0.5vw ;
+								right: -45vw;
+								background-color: rgba(40, 40, 39, 0.5);
+								backdrop-filter: blur(7px);
+								z-index: 300;
+								transition:  all 0.3s ease;
+								
+								
+								
+
+								
+							}
+							
+
+							.day{
+								display: block;
+								height: 3vw;
+								width: 3vw;
+								position: absolute;
+								right: 2vw;
+								top: 0.5vw;
+								border-radius: 50%;
+								cursor: pointer;
+								transition:  0.3s ease; 
+							}
+
+							.day2{
+								display: block;
+								height: 3vw;
+								width: 3vw;
+								position: relative;
+								right: -2vw;
+								top: 1vw;
+								border-radius: 50%;
+								cursor: pointer;
+								transition:  0.3s ease; 
+							}
+
+							label {
+								cursor: pointer;
+								transition:  0.3s ease;
+								
+							}
+							label:hover img{
+								scale: 1.2;
+							}
+
+							#check3{
+								display:none ;
+								position: absolute;
+								left: 90vw;
+								
+								
+							}
+							#check3:checked ~.div-menu2 {
+								right: 0vw;
+
+								
+							}
+
+							
+
+/**********************************************************************************************************/		
+/******************************************************/
+	
+	.div-menu2 .ul-menu2 {
+		position: relative;
+		display: block;
+		left: 0vw;
+		top: 0vw;
+		margin-bottom: 12vw;
+		list-style: none;
+		
+	}
+	
+	.div-menu2 .ul-menu2 li{
+		position:relative;
+		left: -4vw;
+		font-size: 2.4vw;
+		font-weight: 500;
+		border-bottom: 1px solid rgb(194, 194, 194);
+		line-height: 4vw;
+		width: 100%;
+
+
+	
+	}
+
+
+
+					.div-menu2 .ul-menu2 li:hover{
+						
+						font-weight: 600;
+						border-bottom: 4px solid rgb(61, 238, 45);
+
+
+					
+					}
+
+
+
+				.div-menu2 .ul-menu2 li a{
+					margin-left: 4vw;
+					color: rgb(255, 255, 255);
+					width:100%;
+					padding-left: 5vw;
+					padding-top: 1.2vw;
+					padding-bottom: 2vw;
+				
+				}
+
+
+							.div-menu2 .ul-menu2 li:hover a{
+								
+								color: #93FFC5;
+								border-bottom: none;
+								
+							
+							}
+
+
+
+/***************************************************/
+/***************************************************/
+/***************************************************/
+
+.div-def{
+	position: relative;
+	height: 105vw;
+	padding-top: 6vw;
+}
+
+
+			.h2-sen{
+				position: absolute;
+				top: 7vw;
+				left: 8vw;
+				font-size: 4vw;
+				width: 20vw;
+			}
+
+				.p-sen2{
+					position: relative;
+					border-left: 9px solid orange	;
+					top: 20vw;
+					left: -18vw;
+					width: 70vw;
+					font-size: 3vw;
+					line-height: 4vw;
+					word-spacing: 0.7vw;
+					padding-left: 2vw;
+			
+
+				}
+
+
+
+
+.div-options{
+	position: absolute;
+	width: 100%;
+	height: 40vw;
+	left: 0vw;
+	z-index: 160;
+	top: 100vw;
+	
+
+}
+
+		.ul-options{
+			position: relative;
+			list-style: none;
+			display: flex;
+			text-decoration: none;
+			left: -4vw;
+			top: 25vw;
+
+		
+
+		}
+
+
+
+		.ul-options li{
+			margin-left: 1.2vw;
+			border: none;
+			border-radius: 10px;
+			height: 23vw;
+			
+		}
+
+		.img-in{
+			position: relative;
+			left: 4.5vw;
+			height: 23vw;
+			width: 23vw;
+			border-radius: 10px;
+		}
+
+		.img-tra{
+			margin-top: 1.5vw;
+			height: 18vw;
+			width: 25vw;
+			border-radius: 10px;
+		}
+
+				.ul-options li p{
+					margin-top: -1vw;
+					text-align: center;
+					font-weight: 800;
+					font-size: 2.7vw;
+				}
+
+						.p-tra{
+							padding-top: 3.5vw;
+							text-align: center;
+							font-weight: 800;
+							font-size: 1.5vw;
+						}
+
+				.ul-options li a{
+					text-decoration: none;
+					margin-left: 8vw;
+					font-weight: 600;
+					color: orange;
+				}
+
+							.a-tra{
+								text-decoration: none;
+								margin-left: 8vw;
+								position: relative;
+								top: 3.5vw;										
+								font-weight: 600;
+								color: orange;
+							}
+
+
+
+/***************************************************/
+/***************************************************/
+
+.div-body{
+	position: relative;
+	width: 100%;
+	height: 700vw;
+}
+
+
+		.div-body-1{
+			display: ;
+			position:absolute;
+			top: 17vw;
+			left: -10vw;
+			height: 80vw;
+			width:;
+			border-left:100vw solid rgb(248, 193, 90) ;
+			border-top: 0px solid transparent;
+			border-bottom: 40px solid transparent;
+			margin-left: 10vw;
+			
+		}
+					.h2-forme{
+						position: relative;
+						font-size: 3.5vw;
+						font-weight: 600;
+						text-align: center;
+						top: 23vw;
+						width: 50vw;
+						color: rgb(95, 93, 93);
+						margin-bottom: 220vw;
+					}
+
+							.ul-forme{
+								position: absolute;
+								top: 40vw;
+								left: 7vw;
+								font-size: 3vw;
+								line-height: 7vw;
+								color: rgb(0, 0, 0);
+								width: 65vw;
+
+							}
+
+
+							.ul-forme li{
+								list-style: url(../PIC/arrow-4.png);
+							}
+
+
+			.div-body-2{
+				display: ;
+				position:absolute;
+				top: 99.5vw;
+				left: -30vw;
+				height: 80vw;
+				width:;
+				border-right:100vw solid rgb(248, 193, 90) ;
+				border-top: 40px solid transparent;
+				border-bottom: 18px solid transparent;
+				margin-bottom: 0vw;
+
+
+				
+			}
+
+
+						.h2-forme2{
+							position: absolute;
+							font-size: 3.5vw;
+							font-weight: 600;
+							text-align: center;
+							top: 115vw;
+							width: 50vw;
+							color: rgb(95, 93, 93);
+						}
+
+								.ul-forme2{
+									position: absolute;
+									top: 135vw;
+									left: 7vw;
+									font-size: 3vw;
+									line-height: 7vw;
+									color: rgb(0, 0, 0);
+									width: 65vw;
+								}
+
+
+								.ul-forme2 li{
+									list-style: url(../PIC/arrow-4.png);
+								}
+
+
+
+
+			.div-body-3{
+				display: ;
+				position:absolute;
+				top: 190vw;
+				left: 0vw;
+				height: 80vw;
+				width:;
+				border-left:100vw solid rgb(248, 193, 90) ;
+				border-top: 20px solid transparent;
+				border-bottom: 0px solid transparent;
+
+				
+			}
+
+						.h2-forme3{
+							position: absolute;
+							font-size: 3.5vw;
+							font-weight: 600;
+							text-align: center;
+							left: 12vw;
+							top: 205vw;
+							width: 40vw;
+							color: rgb(95, 93, 93);
+						}
+
+								.ul-forme3{
+									position: absolute;
+									top: 225vw;
+									left: 7vw;
+									font-size: 3vw;
+									line-height: 7vw;
+									color: rgb(0, 0, 0);
+									width: 65vw;
+								}
+
+								.ul-forme3 li{
+									list-style: url(../PIC/arrow-4.png);
+								}
+
+
+								
+/*******************************************************************************/
+/******************************************************/
+/*******************************************************************************/
+/******************************************************/
+.div-body-4{
+	top: 45vw;
+	position: relative;
+	height: 380vw;
+	width: 99%;
+
+}
+
+		
+					.h2-body-4{
+						position: absolute;
+						left: -1vw;
+						top: -3.5vw;
+						font-size: 5vw;
+						width: 100%;
+						height: 45vw;
+						color: white;
+						font-weight: 800;
+						padding-top: 10vw;
+						padding-bottom: 10vw;
+						padding-left: 3vw;
+						backdrop-filter: blur(7px);
+						z-index: 150;
+
+
+					}
+
+					.p-body-4{
+						position: absolute;
+						top: 30vw;
+						left: -1vw;
+						line-height: 4vw;
+						word-spacing: 0.1vw;
+						letter-spacing: 0.1vw;
+						font-size: 3vw;
+						width: 70%;
+						color: rgb(255, 255, 255);
+						z-index: 150;
+					}
+
+					.img-body-4{
+						position: absolute;
+						top: -62vw;
+						left: 0vw;
+						height: 54vw;
+						width: 100%;
+						padding-top: 70vw;
+						border-radius: 10px;
+					}
+
+
+					.blur-body-4{
+				
+						position: absolute;
+						height: 65vw;
+						width:102%;
+						top: 0.5vw;
+						left: -1vw;
+						z-index: 100;
+						backdrop-filter: blur(4px);
+		
+												background: -moz-linear-gradient(180deg, RGBa(0, 0, 0, 0.6),  RGBa(0, 0, 0, 0.6));
+												background: -webkit-linear-gradient(180deg, RGBa(0, 0, 0, 0.6), RGBa(0, 0, 0, 0.6));
+												background: -o-linear-gradient(180deg, RGBa(0, 0, 250, 0.6), RGBa(0, 0, 0, 0.6));
+												background: linear-gradient(180deg, RGBa(0, 0, 0, 0.6),  RGBa(0, 0, 0, 0.6));
+												
+					}
+
+
+								.ul-1{
+									position: absolute;
+									left: 4.2vw;
+									top: 70vw;
+									width: 90vw;
+									height: 60vw;
+									border: 1px solid black;
+									font-weight: 700;
+									border-radius: 10px;
+								}
+
+									.ul-1 li{
+										padding-top: 2vw;
+										margin-left: 2vw;
+										list-style: url(../PIC/right-1.png);
+										font-size: 2.8vw;
+										line-height: 5.5vw;
+									}
+					
+										.p-ul-1{
+											position: absolute;
+											top: 1vw;
+											left: 35vw;
+											font-size: 4.1vw;
+											width: 17vw;
+											text-align: center;
+											color: rgb(4, 59, 4);
+										}
+				
+										.img-ul-1{
+											height: 17vw;
+											width: 25vw;
+											position: relative;
+											left: 2vw;
+										}
+
+
+
+										.list-1{
+											font-weight: 100;
+											margin-top: -3vw;
+											margin-right: 1vw;
+										}
+				
+								.ul-2{
+									position: absolute;
+									left: 4.2vw;
+									top: 132vw;
+									width: 90vw;
+									height: 60vw;
+									font-weight: 700;
+									border: 1px solid black;
+									border-radius: 10px;
+								}	
+								
+								
+														.ul-2 li{
+															padding-top: 2vw;
+															margin-left: 2vw;
+															list-style: url(../PIC/right-1.png);
+															font-size: 2.8vw;
+															line-height: 5.5vw;
+														}
+										
+														.p-ul-2{
+															position: absolute;
+															top: 1vw;
+															left: 27vw;
+															font-size: 4.1vw;
+															width: 50vw;
+															text-align: center;
+															color: rgb(4, 59, 4);
+														}
+								
+														.img-ul-2{
+															height: 17vw;
+															width: 25vw;
+															position: relative;
+															left: 2vw;
+														}
+
+														.list-2{
+															font-weight: 100;
+															margin-top: -4.3vw;
+															margin-right: 1vw;
+														}
+				
+								.ul-3{
+									border: 1px solid black;
+									position: absolute;
+									left: 4.2vw;
+									top: 194vw;
+									width: 90vw;
+									height: 60vw;
+									font-weight: 700;
+									border-radius: 10px;
+								}
+
+													.ul-3 li{
+														padding-top: 2vw;
+														margin-left: 2vw;
+														list-style: url(../PIC/right-1.png);
+														font-size: 2.8vw;
+														line-height: 5.5vw;
+													}
+						
+												.p-ul-3{
+													position: absolute;
+													top: 1vw;
+													left: 35vw;
+													font-size: 4.1vw;
+													width: 17vw;
+													text-align: center;
+													color: rgb(4, 59, 4);
+													
+												}
+
+												.list-3{
+													font-weight: 100;
+													margin-top: -4vw;
+													margin-right: 1vw;
+												}
+
+
+
+					
+												.img-ul-3{
+													height: 17vw;
+													width: 25vw;
+													position: relative;
+													left: 2vw;
+												}
+
+
+
+								.ul-4{
+									border: 1px solid black;
+									position: absolute;
+									left: 2.5vw;
+									top: 256vw;
+									width: 90vw;
+									height: 60vw;
+									font-weight: 700;
+									border-radius: 10px;
+								}
+
+									.ul-4 li{
+										padding-top: 2vw;
+										margin-left: 2vw;
+										list-style: url(../PIC/right-1.png);
+										font-size: 2.8vw;
+										line-height: 5.5vw;
+									}
+				
+										.p-ul-4{
+											position: absolute;
+											top: 1vw;
+											left: 35vw;
+											font-size: 4.1vw;
+											width: 17vw;
+											text-align: center;
+											color: rgb(4, 59, 4);
+											
+										}
+				
+										.img-ul-4{
+											height: 17vw;
+											width: 25vw;
+											position: relative;
+											left: 2vw;
+										}
+
+
+										.list-4{
+											font-weight: 100;
+											margin-top: -4vw;
+											margin-right: 1vw;
+										}
+
+
+
+
+/********************************************************/
+/*******************************************************/
+
+
+.div-Q{
+	position: relative;
+	margin-top: 3vw;
+	background-color: rgb(248, 193, 90);	
+	height: 130vw;
+}
+
+
+
+		.slide-2{
+			
+			margin-top: 1.5vw;
+			height: 15vw;
+		}
+
+				.slide-2-img{
+					margin-top: 11vw;
+					height: 30vw;
+					width: 27vw;
+				}
+
+				.slide-2-2-img{
+					position:absolute;
+					margin-top: 15vw;
+					height: 25vw;
+					width: 25vw;
+					right: 5vw;
+					border-radius: 20px;
+				}
+
+				.slide-2-h2{
+				
+					position: absolute;
+					top: 20vw;
+					left: 32vw;
+					width: 50%;
+					font-size: 5vw;
+					word-spacing: ;
+					line-height: 2.2vw;
+					color: green;
+					
+				}
+
+					.sp-Q{
+						color: rgb(77, 172, 3);
+					}
+
+				.p-Q{
+					
+					position: relative;
+					top: -14vw;
+					left: 25vw;
+					width: 35%;
+					font-size: 1.5vw;
+					font-weight: 700 ;
+					color: rgb(77, 172, 3);
+				}
+
+				.ul-Q{
+					position: absolute;
+					left: 6vw;
+					width: 80vw;
+					top: 45vw;
+				}
+
+
+						.ul-Q li{
+							line-height: 5.5vw;
+							font-size: 3.3vw;
+							list-style: url(../PIC/right-1.png);
+							/*list-style:url('../PIC/94555989-bd77-43c9-847e-c2cd4a329b79.png');*/
+						}
+
+				.a-Q{
+					position: absolute;
+					bottom: 8vw;
+					right:5vw ;
+					font-weight: 700;
+					text-decoration: none;
+					color: rgb(77, 172, 3);
+					font-size: 2vw;
+					
+				}
+
+
+.div-A{
+	margin-top: -3vw;
+	position: relative;
+	height: 130vw;
+	background-color: #ffffff;
+}
+
+
+				.slide-3{
+					
+					margin-top: 1.5vw;
+					height: 15vw;
+				}
+
+						.slide-3-img{
+							position: absolute;
+							height: 25vw;
+							width: 25vw;
+							left:70vw;
+							top: 17vw;
+							z-index: 20;
+						}
+
+							.slide-3-2-img{
+								position:absolute;
+								margin-top: 20vw;
+								height: 20vw;
+								width: 20vw;
+								left: 3vw;
+								border-radius: 20px;
+							}
+
+						.slide-3-h2{
+							position: absolute;
+							top: 21vw;
+							left: 25vw;
+							width: 50%;
+							font-size: 5vw;
+							word-spacing: ;
+							line-height: 2.2vw;
+							color: rgb(248, 193, 90);
+						}
+
+							.sp-A{
+								color: rgb(10, 172, 209);
+							}
+
+						.p-A{
+							
+							position: relative;
+							top: -16vw;
+							left: 22vw;
+							width: 40%;
+							font-size: 1.5vw;
+							font-weight: 700 ;
+							color: rgb(10, 172, 209);
+						}
+
+						.ul-A{
+							position: absolute;
+							left: 6vw;
+							width: 80vw;
+							top: 45vw;
+						}
+
+
+								.ul-A li{
+									line-height: 5.5vw;
+									font-size: 3.3vw;
+									list-style: url(../PIC/arrow-4.png);
+								}
+
+						.a-A{
+							position: absolute;
+							bottom: 8vw;
+							right:5vw ;
+							font-weight: 700;
+							text-decoration: none;
+							color: rgb(248, 193, 90);
+							font-size: 2vw;
+							
+						}
+
+
+
+
+
+.div-K{
+	margin-top: 3vw;
+	position: relative;
+	height: 300vw;
+	background-color: rgb(248, 193, 90);
+	padding-bottom: 7vw;
+}
+
+
+				.slide-4{
+					
+					margin-top: 1.5vw;
+					height: 15vw;
+				}
+
+						.slide-4-img{
+							position: absolute;
+							height: 25vw;
+							width: 35vw;
+							left:3vw;
+							top: 14vw;
+							z-index: 20;
+							
+						}
+
+						
+
+						.slide-4-h2{
+							position: absolute;
+							top: 21vw;
+							left: 35vw;
+							width: 80%;
+							font-size: 5vw;
+							word-spacing: ;
+							line-height: 2.2vw;
+							color: rgb(255, 255, 255);
+						}
+
+							
+
+						.p-K{
+							
+							position: relative;
+							top: -7vw;
+							left: 10vw;
+							width: 40%;
+							font-size: 1.5vw;
+							font-weight: 700 ;
+							color: rgb(44, 131, 253);
+						}
+
+						.ul-K{
+							position: absolute;
+							left: 6vw;
+							width: 80vw;
+							top: 45vw;
+						}
+
+
+								.ul-K li{
+									line-height: 5.5vw;
+									font-size: 3.3vw;
+									list-style: url(../PIC/arrow-4.png);
+									}
+						.a-K{
+							position: absolute;
+							bottom: 15vw;
+							right:5vw ;
+							font-weight: 700;
+							text-decoration: none;
+							font-size: 2vw;
+							
+						}	
+
+
+										
+	
+
+
+
+									.ul-img{
+										position: relative;
+										top: 82vw;
+										left: 10vw;
+										height: 170vw;
+										width: 72%;
+										list-style: none;
+										display: block;
+									}
+
+
+
+										.ul-img li{
+											
+											position: relative;
+											left: -2vw;
+										}
+
+												.li-img{
+													height: 40vw;
+													width: 60vw;
+													border-radius: 30px;
+													border: 4px solid white;
+												}
+							
+			
+}
+	
+
+
+
+				
